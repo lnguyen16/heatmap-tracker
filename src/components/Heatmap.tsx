@@ -38,5 +38,5 @@ const Heatmap: React.FC<{ data: ActivityEntry[] }> = ({ data }) => {
 
   return <div ref={calendarRef} className="cal-heatmap" />;
 };
-// test
+
 export default Heatmap;
