@@ -1,0 +1,52 @@
+/* Base styles for the calendar heatmap */
+.calendar-heatmap-container {
+    padding: 1rem 0;
+  }
+  
+  /* Colors for the heatmap cells */
+  .react-calendar-heatmap .color-empty {
+    fill: #ebedf0;
+  }
+  
+  .react-calendar-heatmap .color-scale-1 {
+    fill: #c6e48b;
+  }
+  
+  .react-calendar-heatmap .color-scale-2 {
+    fill: #7bc96f;
+  }
+  
+  .react-calendar-heatmap .color-scale-3 {
+    fill: #239a3b;
+  }
+  
+  .react-calendar-heatmap .color-scale-4 {
+    fill: #196127;
+  }
+  
+  /* Add rounded corners to the squares */
+  .react-calendar-heatmap .react-calendar-heatmap-small-rect {
+    rx: 2;
+    ry: 2;
+  }
+  
+  /* Style for the weekday labels */
+  .react-calendar-heatmap .react-calendar-heatmap-weekday-label {
+    font-size: 9px;
+    fill: #767676;
+  }
+  
+  /* Style for the month labels */
+  .react-calendar-heatmap .react-calendar-heatmap-month-label {
+    font-size: 10px;
+    fill: #767676;
+  }
+  
+  /* Improve empty message positioning */
+  .empty-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
